@@ -1,3 +1,187 @@
 .pdpage {
   padding: 60px 0;
+  /* text-align: center; */
+}
+
+.pdpage__subwrapper {
+  margin-top: 60px;
+}
+
+.pdpage__subwrapper a {
+  text-decoration: underline;
+}
+
+.pdpage__subwrapper span {
+  font-weight: bold;
+}
+
+.pdpage h2 {
+  text-align: center;
+}
+
+.pdpage h3 {
+  text-align: center;
+}
+
+.pdpage__wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 15px;
+}
+
+.pdpage__imgwrapper {
+  display: flex;
+}
+
+.pdpage__img1 {
+  width: 100%;
+  max-width: 578px;
+  border: 1px solid rgb(0, 0, 0,0.2);
+}
+
+.pdpage__subimgwrapper img {
+  width: 100%;
+  max-width: 70px;
+  display: block;
+  border: 1px solid rgb(0, 0, 0,0.2);
+}
+
+.pdpage__info {
+  width: 300px;
+  margin-left: 60px;
+}
+
+.pdpage__name {
+  font-size: 3rem;
+}
+
+.pdpage__title {
+  font-size: 2.6rem;
+}
+
+.pdpage__title span {
+  font-size: 2rem;
+}
+
+.pdpage__cartbtn {
+  display: block;
+  width: 108px;
+  color: #F8F6F3;
+  line-height: 37px;
+  padding: 0 35px;
+  /* width: 170px; */
+  height: 37px;
+  background-color: #5C0A0A;
+  /* border-radius: 10px; */
+  margin-top: 15px;
+}
+
+.pdpage__qty {
+  height: 37px;
+  text-align: center;
+  margin-top: 15px;
+  width: 170px;
+}
+
+.pdpage__text {
+  max-width: 255px;
+  margin-top: 20px;
+}
+
+.pdpade__btnwarpper {
+  display: flex;
+  margin-top: 20px;
+}
+
+.pdpade__btnwarpper a {
+  background-color: #f8f8f8;
+  padding: 5px 10px;
+}
+
+.pdpade__btnwarpper a:hover {
+  opacity: 0.7;
+}
+
+.pdpade__btnwarpper a:nth-child(n+2) {
+  margin-left: 15px;
+}
+
+.pdpage__txtwrapper {
+  width: 100%;
+  max-width: 660px;
+  margin-top: 30px;
+}
+
+.pdpage__txt {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.pdpage__subtxt {
+  margin-top: 15px;
+}
+
+table {
+  display: table;
+  background-color: #EAE6DF;
+  /* border: solid 1px black; */
+  border-collapse: collapse;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 660px;
+}
+
+table th, table td {
+  border: dashed 1px black;
+  /*実線 1px 黒*/
+}
+
+table th {/*table内のthに対して*/
+  padding: 10px;/*上下左右10pxずつ*/
+  width: 70px;
+}
+
+table td {/*table内のtdに対して*/
+  padding: 3px 10px;/*上下3pxで左右10px*/
+}
+
+@media screen and (max-width:1024px) {
+  .pdpage {
+    padding: 60px 15px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .pdpage {
+  padding: 60px 15px;
+  /* text-align: center; */
+}
+
+  .pdpage__wrapper {
+  display: block;
+}
+
+.pdpage__imgwrapper {
+  display: block;
+}
+
+.pdpage__img1 {
+  width: 100%;
+  max-width: initial;
+  border: 1px solid rgb(0, 0, 0,0.2);
+}
+
+.pdpage__subimgwrapper img {
+  width: 100%;
+  max-width: 130px;
+  display: inline;
+  border: 1px solid rgb(0, 0, 0,0.2);
+}
+
+.pdpage__info {
+  width: 300px;
+  margin-left: initial;
+  margin-top: 30px;
+}
+
 }
