@@ -1,0 +1,17 @@
+.newspage {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.newspage .news__inner {
+  margin-top: 30px;
+}
+
+.newspage .btn1 {
+  margin-top: 60px;
+  background-color: #7D8C1A;
+  padding: 10px 120px;
+  border-radius: 10px;
+  color: #F8F6F3;
+  border: none;
+}

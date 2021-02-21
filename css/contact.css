@@ -1,0 +1,66 @@
+.ctpage {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.ctpage__text {
+  margin-top: 30px;
+}
+
+.ctpage table {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+table {
+  display: table;
+  background-color: #EAE6DF;
+  /* border: solid 1px black; */
+  border-collapse: collapse;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 660px;
+}
+
+table th, table td {
+  border: dashed 1px black;
+  /*実線 1px 黒*/
+}
+
+.ctpage table th {/*table内のthに対して*/
+  padding: initial;/*上下左右10pxずつ*/
+  height: 70px;
+  width: 150px;
+  line-height: 70px;
+}
+
+.ctpage table td {/*table内のtdに対して*/
+  padding: 3px 10px;/*上下3pxで左右10px*/
+  /* text-align: left; */
+}
+
+.ctpage__textarea {
+  position: relative;
+  top: 12px;
+}
+
+.ctpage__send {
+  height: 50px;
+  line-height: 50px;
+}
+
+.ctpage__form {
+  text-align: left;
+}
+
+@media screen and (max-width:1024px) {
+  .ctpage {
+    padding: 60px 15px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .ctpage {
+  padding: 60px 15px;
+  /* text-align: center; */
+}

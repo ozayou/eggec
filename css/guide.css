@@ -1,0 +1,54 @@
+.guidepage {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.guidepage .guidepage__inner {
+  text-align: left;
+  margin-top: 60px;
+}
+
+.guidepage__wrapper {
+  margin-top: 30px;
+}
+
+.guidepage__wrapper h4 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.guidepage__wrapper h5 {
+  margin-top: 10px;
+}
+
+.guidepage__buybtn {
+  text-decoration: underline;
+}
+
+.guidepage .btn1 {
+  margin-top: 60px;
+  background-color: #7D8C1A;
+  padding: 10px 120px;
+  border-radius: 10px;
+  color: #F8F6F3;
+  border: none;
+}
+
+@media screen and (max-width:768px) {
+  .guidepage {
+  padding: 60px 15px;
+}
+
+.guidepage__wrapper {
+  margin-top: 40px;
+}
+
+.guidepage__wrapper h4 {
+  font-size: 2rem;
+}
+
+.guidepage__wrapper h5 {
+  margin-top: 30px;
+}
+
+}
